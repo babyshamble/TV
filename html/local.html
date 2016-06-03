@@ -1,0 +1,147 @@
+<link id="mapicss" type="text/css" rel="stylesheet" href="./css/local.css">
+
+<!-- did:自身ID fid:父ID isdir:是否有二级栏目 首页媒体、资讯menu需要标注-->
+<!-- local为url传给你的唯一标记，html命名为标记.html 内部的id和class命名用标记进行拼接 -->
+
+<!-- 传给你的系统id-main -->
+<div id="local-main">
+<!-- 传给你的系统id-main-move-父id -->
+	<ul id="local-main-move-l11" class="local-main-move" fid="l11"> <!-- 每个隐藏的ul上要有他的父ID-->
+		<li class="local-grid">
+			<div class="local-grid-e" did="l21" fid="l11">
+				<div class="local-grid-item pointer_reader">
+					<div class="local-grid-e-img local-item-image" item-image="imgs/11.jpg"></div>
+					<div class="local-grid-e-text">中央人民政府</div>
+				</div>
+				<div class="local-grid-item-rolling">
+					<div class="local-grid-item-rolling-title" did="l21">中央人民政府</div>
+					<div class="local-grid-item-rolling-cont">
+						<div class="local-grid-item-rolling-e local-item-image" did="12345">资讯</div>
+						<div class="local-grid-item-rolling-e local-item-image" did="12345">资讯</div>
+						<div class="local-grid-item-rolling-e local-item-image" did="12345">资讯</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="local-grid-e" did="l22" fid="l11">
+				<div class="local-grid-item pointer_reader">
+					<div class="local-grid-e-img local-item-image" item-image="imgs/12.jpg"></div>
+					<div class="local-grid-e-text">中央人民政府</div>
+				</div>
+				<div class="local-grid-item-rolling">
+					<div class="local-grid-item-rolling-title">中央人民政府</div>
+					<div class="local-grid-item-rolling-cont">
+						<div class="local-grid-item-rolling-e local-item-image">资讯</div>
+						<div class="local-grid-item-rolling-e local-item-image">资讯</div>
+						<div class="local-grid-item-rolling-e local-item-image">资讯</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="local-grid-e pointer_reader" did="l23" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地3
+								</td>
+					</table></tbody></tr>
+				</div>
+			</div>
+
+			<div class="local-grid-e pointer_reader" did="l24" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地4
+								</td>
+					</table></tbody></tr>
+			</div>
+		</li>
+
+		<li class="local-grid">
+			<div class="local-grid-e pointer_reader" did="l25" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地1
+								</td>
+					</table></tbody></tr>
+				</div>	
+			</div>
+
+			<div class="local-grid-e pointer_reader" did="l26" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地2
+								</td>
+					</table></tbody></tr>
+				</div>
+			</div>
+
+			<div class="local-grid-e pointer_reader" did="l27" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地3
+								</td>
+					</table></tbody></tr>
+				</div>
+			</div>
+
+			<div class="local-grid-e pointer_reader" did="l28" fid="l11">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地4
+								</td>
+					</table></tbody></tr>
+			</div>
+		</li>
+	</ul>
+
+	<ul id="local-main-move-l12" class="local-main-move" fid="l12">
+		<li class="local-grid">
+			<div class="local-grid-e pointer_reader" did="l29" fid="l12">
+				<div class="local-grid-e-img"></div>
+				<div class="local-grid-e-text">
+					<table><tbody><tr>
+								<td>
+									本地2
+								</td>
+					</table></tbody></tr>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<!-- 传给你的系统id-menu -->
+
+<i id="local-left" class="home-add"></i>
+<div id="local-menu">
+	<div id="local-menu-move">
+		<!-- 传给你的系统id-menu-e-自己的id 要带上自身ID 父ID 下级目录关系-->
+		<div id="local-menu-e-l11" class="menu-e pointer_reader" did="l11" isdir="0" fid="local">教育局111</div>
+		<div id="local-menu-e-l12"  class="menu-e pointer_reader" did="l12" isdir="0" fid="local">旅游局222</div>
+		<div id="local-menu-e-l11"  class="menu-e pointer_reader" did="l11" isdir="0" fid="local">教育局1</div>
+		<div id="local-menu-e-l12"  class="menu-e pointer_reader" did="l12" isdir="0" fid="local">旅游局2</div>
+		<div id="local-menu-e-l11"  class="menu-e pointer_reader" did="l11" isdir="0" fid="local">教育局</div>
+		<div id="local-menu-e-l12"  class="menu-e pointer_reader" did="l12" isdir="0" fid="local">旅游局</div>
+		<div id="local-menu-e-l11"  class="menu-e pointer_reader" did="l11" isdir="0" fid="local">教育局</div>
+		<div id="local-menu-e-l12"  class="menu-e pointer_reader" did="l12" isdir="0" fid="local">旅游局222222</div>
+		<div id="local-menu-e-l11"  class="menu-e pointer_reader" did="l11" isdir="0" fid="local">教育局111111</div>
+		<div id="local-menu-e-l12"  class="menu-e pointer_reader" did="l12" isdir="0" fid="local">旅游局33333</div>
+		<div></div>
+	</div>
+</div>
+<i id="local-right" class="home-add"></i>
+
+
+<script src="js/views/home/local.js"></script>

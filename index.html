@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="description" content="TV" />
+    <meta name="keywords" content="TV" />
+    <title>TV</title>
+    
+    <link id="mapicss" type="text/css" rel="stylesheet" href="css/global.css">
+    <link id="mapicss" type="text/css" rel="stylesheet" href="css/animate.css">
+    <link id="mapicss" type="text/css" rel="stylesheet" href="css/home.css">
+    <link id="mapicss" type="text/css" rel="stylesheet" href="css/list.css">
+    <link id="mapicss" type="text/css" rel="stylesheet" href="css/art.css">
+</head>
+
+<body scroll="no">
+	<!-- 语音配置部分 -->
+	<div id="yx_config" style="display:none;">     
+	    <a href="http://wza.yanliang.gov.cn/yxsm/cache/voices/voices1/" id="yx_voicespath">voices</a>
+	    <a href="http://wza.yanliang.gov.cn/yxsm/index.php?m=socket&a=get" id="yx_socketpath">socket</a>
+	</div>
+	<!-- 语音配置部分 -->
+	
+	<div id="base">
+		<div id="home">
+			<div id="home-header">
+				<div id="h-local" class="home-header-e pointer_reader" did="local">本地</div>
+				<div id="h-national" class="home-header-e pointer_reader" did="national">全国</div>
+				<div id="h-media" class="home-header-e pointer_reader" did="media">全媒体</div>
+				<div id="h-news" class="home-header-e pointer_reader" did="news">政信通</div>
+			</div>
+			<!-- z-index:1 width:100% -->
+			<div id="home-main"></div>
+		</div>
+
+		<div id="list"></div>
+
+		<div id="art">
+			<div id="art-cover"></div>
+			<div id="art-container"> 
+			</div>
+			<div id="art-close" class="pointer_reader">
+				<div>关闭</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 共用方法 -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.pause.js"></script>
+	<script src="js/helper.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/configure.js"></script>
+	<script src="js/router.js"></script>
+	<script src="js/dispatcher.js"></script>
+	<script src="js/views/art/YRAPI.js"></script>  
+	<script src="js/views/art/chapter.js"></script>  
+
+	<!-- self JavaScript -->
+	<script src="js/views/homeControl.js"></script>
+	<script src="js/views/listControl.js"></script>
+	<script src="js/views/artControl.js"></script>
+	<script src="js/frame.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+#national {
+	width: 100%;
+	height: 100%;
+	color: #5A688D;
+	position: absolute;
+}
+
+#national-menu {
+	position: absolute;
+	height: 50px;
+	bottom: 20px;
+	left: 0;
+	right: 70px;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+#national-menu-move {
+	height: 100%;
+	white-space:nowrap;
+	font-size: 0;
+	-webkit-text-size-adjust:none;
+}
+
+#national-menu-move>div {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+#national-menu-move>div:hover {
+	color: #fff;
+}
+
+#national-left{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	left: -50px;
+
+	background-image: url(../imgs/left.jpg);
+	background-size: cover;
+    background-position: center center;
+
+    display: none;
+}
+
+#national-right{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+
+	background-image: url(../imgs/right.jpg);
+	background-size: cover;
+    background-position: center center;
+
+    display: none;
+}
+
+.national-add:hover{
+	font-weight: bold;
+}
+
+#national-main {
+	position: absolute;
+	width: 100%;
+	height: 480px;
+	top: 50%;
+	margin-top: -240px;
+	overflow: hidden;
+}
+
+.national-main-move {
+	position: absolute;
+	height: 100%;
+	white-space: nowrap;
+	display: none;
+}
+
+.national-grid {
+	width: 540px;
+	height: 100%;
+	position: absolute;
+    overflow: hidden;
+}
+
+.national-grid-e {
+	border-radius: 4px;
+	width: 260px;
+	height: 210px;
+	font-size: 18px;
+	background: #FFF;
+	position: absolute;
+	overflow: hidden;
+	left: 0; 
+    top: 20px;
+}
+
+.national-grid-item {
+	position: absolute;
+	top: 0;
+	width: 260px;
+	height: 210px;
+	background: #fff;
+	z-index: 2;
+}
+
+.national-grid-e-img {
+	background-size: cover;
+    background-position: center center;
+	width: 100%;
+	height: 170px;
+	opacity: .5; 
+}
+
+.national-grid-e-text {
+	top: 220px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;	
+	font-size: .9em;
+	color: #000;
+	text-align: center;
+}
+
+.national-main-move-foucs {
+	opacity: 1 !important;
+}
+
+.national-grid-item-rolling {
+	position: absolute;
+	top: 0;
+	width: 260px;
+	bottom: 0;
+}
+
+.national-grid-item-rolling-title {
+	width: 260px;
+	height: 50px;
+	line-height: 50px;
+	background: orange;
+	text-align: center;
+}
+
+.national-grid-item-rolling-cont {
+	width: 260px;
+	height: 160px;
+}
+
+.national-grid-item-rolling-e {
+	width: 260px;
+	height: 160px;
+	background-size: cover;
+    background-position: center center;
+}
